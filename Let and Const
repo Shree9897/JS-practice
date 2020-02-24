@@ -1,0 +1,16 @@
+
+Let:
+
+Let does not create windows object unlike var..(i.e "this." can not be used with Let varialbes)
+Let is block scope. Can not be redeclared in same scope but can be done in different scopes. can make use of blocks to redeclare the let variable.
+A ReferenceError is occured when we try to use the let varialbe without initializing it.
+
+
+
+Const:
+
+Const creates a variable with constant values and should be declared and defined in the same statement.
+Const is also block scope just like let.
+Can not be reinitilized. In case of const objects, the value can be changes but keys cannot be.
+In case of const arrays, the value of arrays can be updated but the array can not be dirrectly assigned to a value.
+Can not be redeclared in the same scope.

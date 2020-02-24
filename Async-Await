@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+<script type ="text/javascript">
+async function asyncData(){
+  
+  
+  var request1= await fetch('https://jsonplaceholder.typicode.com/users/1');
+  var request2= await fetch('https://jsonplaceholder.typicode.com/users/2');
+  
+  console.log(request1.string);
+  console.log(request2.text());
+}
+
+asyncData();
+</script>
+</head>
+</html>
